@@ -1,15 +1,12 @@
 {
-  "name": "react",
+  "name": "frontend-react-apollo",
   "version": "1.0.0",
-  "description": "React example starter project",
-  "keywords": [
-    "react",
-    "starter"
-  ],
+  "description": "",
+  "keywords": [],
   "main": "src/index.js",
   "dependencies": {
     "@apollo/client": "3.6.1",
-    "graphql": "16.4.0",
+    "graphql": "0.13.0",
     "react": "18.0.0",
     "react-dom": "18.0.0",
     "react-scripts": "4.0.0"
