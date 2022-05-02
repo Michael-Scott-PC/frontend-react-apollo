@@ -1,5 +1,6 @@
 import React from 'react';
 import { useQuery, gql } from '@apollo/client';
+import Button from './Button';
 import LinksList from './LinksList';
 
 const ALL_LINKS = gql`
@@ -29,6 +30,8 @@ const LandingPage = () => {
         Rebrandly is the industry-leading link management platform to brand,
         track and share short URLs using a custom domain
       </p>
+      <Button text="Sign up free" bgColor="bg-sky-600" textColor="text-white" />
+      <Button text="Request a demo" />
       <LinksList links={data.getAllLinks} />
     </div>
   );
