@@ -19,7 +19,12 @@ const LandingPage = () => {
   if (error) return <p>Error :(</p>;
 
   return (
-    <div>
+    <div class="text-center mt-8">
+      <img
+        class="w-3/4 mx-auto"
+        src="images/rebrandly-person.png"
+        alt="rebrandly logo"
+      />
       <LinksList links={data.getAllLinks} />
     </div>
   );
