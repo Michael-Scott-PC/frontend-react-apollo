@@ -4,7 +4,7 @@ const Link = ({ link }) => {
   return (
     <div>
       <h1>Link Component</h1>
-      <a href={`${link.url}/${link.slug}`}>{link.url}</a>
+      <a href={`${link.url}/${link.slug}`}>{`${link.url}${link.slug}`}</a>
     </div>
   );
 };
