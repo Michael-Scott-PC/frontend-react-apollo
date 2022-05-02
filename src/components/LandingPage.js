@@ -25,6 +25,10 @@ const LandingPage = () => {
         src="images/rebrandly-person.png"
         alt="rebrandly logo"
       />
+      <p class="font-sans">
+        Rebrandly is the industry-leading link management platform to brand,
+        track and share short URLs using a custom domain
+      </p>
       <LinksList links={data.getAllLinks} />
     </div>
   );
