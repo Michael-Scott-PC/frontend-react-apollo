@@ -5,8 +5,7 @@ const InputForm = () => {
   const [urlInput, setUrlInput] = useState('');
   const [slugInput, setSlutInput] = useState('');
   return (
-    <div>
-      <h1>InputForm Component</h1>
+    <div className="pt-10">
       <input
         className="rounded w-full text-center p-2"
         onChange={(e) => setUrlInput(e.target.value)}
