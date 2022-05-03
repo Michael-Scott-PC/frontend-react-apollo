@@ -2,6 +2,7 @@ import React from 'react';
 
 const Button = ({
   bgColor = 'bg-white',
+  // onSubmit = () => {},
   text = 'default text',
   textColor = 'text-sky-600',
   width = 'w-2/3'
@@ -10,7 +11,7 @@ const Button = ({
     <div>
       <button
         className={`${bgColor} ${textColor} ${width} p-1 mb-1 rounded`}
-        onClick={() => {}}
+        // onSubmit={onSubmit}
       >
         {text}
       </button>
