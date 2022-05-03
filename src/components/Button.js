@@ -9,7 +9,7 @@ const Button = ({
   return (
     <div>
       <button
-        class={`${bgColor} ${textColor} ${width} p-1 mb-1 rounded`}
+        className={`${bgColor} ${textColor} ${width} p-1 mb-1 rounded`}
         onClick={() => {}}
       >
         {text}

@@ -1,17 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Button from './Button';
 
 const InputForm = () => {
+  const [urlInput, setUrlInput] = useState('');
+  const [slugInput, setSlutInput] = useState('');
   return (
     <div>
       <h1>InputForm Component</h1>
       <input
-        class="rounded w-full text-center p-2"
+        className="rounded w-full text-center p-2"
+        onChange={(e) => setUrlInput(e.target.value)}
         placeholder="Make your links shorter"
+        value={urlInput}
       />
       <input
-        class="rounded w-full text-center p-2 my-2"
+        className="rounded w-full text-center p-2 my-2"
+        onChange={(e) => setSlutInput(e.target.value)}
         placeholder="custom slug (optional)"
+        value={slugInput}
       />
       <Button
         text="Shorten URL"
