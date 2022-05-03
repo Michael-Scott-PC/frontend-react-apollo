@@ -3,7 +3,7 @@ import { AiOutlineCopyrightCircle } from 'react-icons/ai';
 
 const Footer = () => {
   return (
-    <div class="bg-gray-800 text-white pl-3 py-4">
+    <div class="text-xs bg-gray-700 text-white px-3 py-4 flex flex-col sm:flex-row sm:justify-between">
       <p>Terms & Conditions</p>
       <p>Privacy Policy</p>
       <p>Cookie Policy</p>
