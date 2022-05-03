@@ -33,7 +33,7 @@ const LandingPage = () => {
       </p>
       <Button text="Sign up free" bgColor="bg-sky-600" textColor="text-white" />
       <Button text="Request a demo" />
-      <section class="bg-slate-900 mt-4">
+      <section class="bg-slate-900 mt-4 px-3">
         <InputForm />
         <LinksList links={data.getAllLinks} />
       </section>
