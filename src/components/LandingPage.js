@@ -1,6 +1,7 @@
 import React from 'react';
 import { useQuery, gql } from '@apollo/client';
 import Button from './Button';
+import InputForm from './InputForm';
 import LinksList from './LinksList';
 
 const ALL_LINKS = gql`
@@ -32,7 +33,10 @@ const LandingPage = () => {
       </p>
       <Button text="Sign up free" bgColor="bg-sky-600" textColor="text-white" />
       <Button text="Request a demo" />
-      <LinksList links={data.getAllLinks} />
+      <section class="bg-slate-900 mt-4">
+        <InputForm />
+        <LinksList links={data.getAllLinks} />
+      </section>
     </div>
   );
 };
